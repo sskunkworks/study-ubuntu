@@ -1,0 +1,6 @@
+/home/ubuntu/work/study/study-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/work/study/study-cmake/build/CMakeFiles/program.dir
+/home/ubuntu/work/study/study-cmake/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/work/study/study-cmake/build/lib/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/work/study/study-cmake/build/lib/CMakeFiles/shape.dir
+/home/ubuntu/work/study/study-cmake/build/lib/CMakeFiles/edit_cache.dir

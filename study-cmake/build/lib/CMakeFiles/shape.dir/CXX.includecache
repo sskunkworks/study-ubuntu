@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/shape.h
+
+/home/ubuntu/work/study/study-cmake/lib/shape.cc
+shape.h
+/home/ubuntu/work/study/study-cmake/lib/shape.h
+iostream
+-
+thread
+-
+

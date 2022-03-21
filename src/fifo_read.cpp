@@ -26,6 +26,7 @@ int main(void)
     exit(EXIT_FAILURE);  
   }
 
+
   while(1)
   {
     if((n_read = read(fd, a_buf, sizeof(a_buf))) == -1)

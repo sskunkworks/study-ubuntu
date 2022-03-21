@@ -18,9 +18,9 @@ TARGET = main
 # wildcard로 SRC_DIR에서 *.cpp 파일 목록을 뽑아낸 뒤에 
 # notdir로 파일 이름만 뽑아낸다. 
 # SRC = foo.cpp bar.cpp fifo_test.cpp
-SRC = $(notdir $(wildcard $(SRC_DIR)/*.cpp))
+SRCS = $(notdir $(wildcard $(SRC_DIR)/*.cpp))
 
-OBJS = foo.o bar.o fifo_test.o
+OBJS = $(SRCS:.cpp=.o)
 
 # OBJS 안의 object 파일들 이름 앞에 $(OBJ_DIR)/ 을 붙인다.
 OBJECTS = $(patsubst %.o,$(OBJ_DIR)/%.o,$(OBJS))
